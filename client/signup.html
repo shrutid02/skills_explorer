@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon-image.png">
+  <script src="requests.js"></script>
+</head>
+
+<body>
+    <main id="main-holder">
+        <h1 id="login-header">Create account</h1>
+
+          <form id="login-form" onsubmit="signup(event)">
+            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Enter username">
+            <input type="text" name="email" id="email-field" class="login-form-field" placeholder="Enter email">
+            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Enter password">
+            <input type="password" name="confirm_password" id="confirm-password-field" class="login-form-field" placeholder="Confirm password">
+            <input type="submit" value="Submit" id="login-form-submit">
+          </form>
+
+          <p id="login-signup-connect">Already have an account? Go back to <a href="/login.html">login page</a>.</p>
+    </main>
+</body>

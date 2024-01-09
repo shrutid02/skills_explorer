@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>become_mentor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon-image.png">
+  <script src="requests.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+  <h2>Select a skill which you can mentor</h2>
+
+  <select name="skill" id="skill" class="dropbtn">
+    <option value="Select skill">Select skill</option>
+    <option value="Academics">Academics</option>
+    <option value="Art">Art</option>
+    <option value="Music">Music</option>
+    <option value="Sports">Sports</option>
+  </select>
+
+  <button id="skills-submit" class="dropbtn" onclick="becomeMentor(event)">Submit</submit>
+
+  <button id="logout" class="logout-button" onclick=" window.location.href = '/login.html'">Log out</button>
+
+  </main>
+  </body>
+  </html>
