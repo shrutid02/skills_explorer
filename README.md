@@ -1,4 +1,4 @@
-# Skills Explorer ✨
+# Skills Explorer 
 ### 💡 What is it?
 A web application for college students willing to mentor fellow college mates across multiple categories (such as Academics, Sports, Arts etc)
 
